@@ -1,0 +1,66 @@
+@media (max-width: 31em) {
+  main {
+    margin: 5rem 0rem;
+  }
+
+  .stat-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2.1fr;
+
+    width: 20rem;
+  }
+
+  /* Image */
+  .stat-img-box {
+    grid-row: 1 / 2;
+
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+  }
+
+  /* Text */
+  .stat-text-box {
+    margin: 2.2rem 2.2rem;
+  }
+
+  .stat-text {
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .text--title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 0.7px;
+    text-align: center;
+  }
+
+  .text-description {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.5rem;
+    margin-right: 0rem;
+    text-align: center;
+  }
+
+  /* Stat */
+  .stat-numbers {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+
+  .numbers--box {
+    text-align: center;
+  }
+}
